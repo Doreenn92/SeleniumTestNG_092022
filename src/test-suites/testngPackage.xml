@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="Run by Package">
+        <packages>
+            <package name="doreen.com.Bai9_TestNG" /> <!-- chỉ định package cuối cùng chứa các class test -->
+            <package name="doreen.com.TestRunXML" />
+        </packages>
+    </test>
+</suite>

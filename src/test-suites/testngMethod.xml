@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="Run with Method">
+        <classes>
+            <class name="doreen.com.TestRunXML.RunTest03">
+                <methods>
+                    <include name="test03" />
+                    <include name="test05" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
